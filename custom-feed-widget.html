@@ -1,0 +1,275 @@
+<!DOCTYPE html>
+<!-- saved from url=(1231)https://social-blog.wix.com/custom-feed-widget?cacheKiller=1596575417591&commonConfig=%7B%22brand%22%3A%22wix%22%7D&compId=comp-kdeze60r&currency=USD&deviceType=desktop&height=896&instance=RSTv-S4hPlnaBlP9XuSkVwqdv49rgKxLMsBZEZvDlY8.eyJpbnN0YW5jZUlkIjoiMzIyMDZhOTQtNjFiNi00NDQwLTk3MmMtYjc2ZjlkYThlZTNhIiwiYXBwRGVmSWQiOiIxNGJjZGVkNy0wMDY2LTdjMzUtMTRkNy00NjZjYjNmMDkxMDMiLCJtZXRhU2l0ZUlkIjoiOWU3YmNlYmMtNjAxNS00MTUwLWEzZWEtZWM1MmYzZGYxNGNhIiwic2lnbkRhdGUiOiIyMDIwLTA4LTA0VDIxOjA5OjM3LjMwN1oiLCJ1aWQiOiJiYjdkNTk2ZC0xYzJkLTQ2M2YtOGE3Ni1lOThhNWY0YTA1Y2YiLCJwZXJtaXNzaW9ucyI6Ik9XTkVSIiwiZGVtb01vZGUiOmZhbHNlLCJvcmlnaW5JbnN0YW5jZUlkIjoiOTE1MWNmM2MtYjUxYy00ZTY3LThjOWItYjc5NDZlY2U3ZTEyIiwiYmlUb2tlbiI6ImFjNWJhNDI4LTAxYTMtMDUxMC0zNGM2LTViM2Q2ZTc3ZmFmMCIsInNpdGVPd25lcklkIjoiYmI3ZDU5NmQtMWMyZC00NjNmLThhNzYtZTk4YTVmNGEwNWNmIiwic2l0ZU1lbWJlcklkIjoiYmI3ZDU5NmQtMWMyZC00NjNmLThhNzYtZTk4YTVmNGEwNWNmIiwiZXhwaXJhdGlvbkRhdGUiOiIyMDIwLTA4LTA1VDAxOjA5OjM3LjMwN1oiLCJsb2dpbkFjY291bnRJZCI6ImJiN2Q1OTZkLTFjMmQtNDYzZi04YTc2LWU5OGE1ZjRhMDVjZiJ9&locale=en&pageId=dnwlo&petri_ovr=specs.DisableNewRelicScripts%3Atrue%3Bsv_contactFormFinalMigrationEditor%3Aold%3B&siteRevision=105&tz=America%2FLos_Angeles&viewMode=editor&viewerCompId=comp-kdeze60r&width=980 -->
+<html lang="en"><head dir="ltr"><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <script>
+(function() {
+  try {
+    var canvas = typeof document === 'object' ? window.document.createElement('canvas') : {};
+    canvas.width = canvas.height = 1;
+    window.__IS_WEBP_SUPPORTED__ = canvas.toDataURL ? canvas.toDataURL('image/webp').indexOf('image/webp') === 5 : false;
+  } catch (e) {
+    window.__IS_WEBP_SUPPORTED__ = false;
+  }
+})();
+</script>
+
+
+
+    
+
+      
+  
+  
+
+
+
+
+
+<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+<link rel="shortcut icon" href="https://www.wix.com/favicon.ico">
+
+
+
+
+  <script type="text/javascript">
+  (function(x,e,o,s,n){var a=window.fedops||{};a.apps=a.apps||{};a.apps[x]={startLoadTime:e&&e.now&&e.now()};try{a.sessionId=o.getItem("fedops.logger.sessionId")}catch(x){}a.sessionId=a.sessionId||"xxxxxxxx-xxxx-4xxx-yxxx-xxxxxxxxxxxx".replace(/[xy]/g,function(x){var e=s()*16|0,o=x=="x"?e:e&3|8;return o.toString(16)});window.fedops=a;var d="//frog.wix.com/fed?appName="+x+"&src=72&evid=14&session_id="+a.sessionId+"&_="+s();if(!!n&&!!n.sendBeacon){n.sendBeacon(d)}else{(new Image).src=d}})('communities-blog-custom-feed-widget',window.performance,window.localStorage,Math.random,window.navigator);
+</script>
+
+
+
+
+      
+      
+<script>
+  try {
+    if (window.parent) {
+      var msgSent = false;
+      var vars = window.location.search.replace('?', '').split('&');
+      for (var i = 0; i < vars.length; i++) {
+        var arr = vars[i].split('=');
+        if (arr[0] == 'compId') {
+          window.parent.postMessage('{"intent":"TPA2","callId":1,"type":"appIsAlive","compId":"' + arr[1] + '","deviceType":"desktop","data":{"version":"1.66.0"}}', '*')
+          msgSent = true;
+        }
+      }
+      if (!msgSent) {
+        console.info('couldn\'t find compId in', window.location);
+      }
+    }
+  } catch (e) {
+    console.error('Error posting keep alive msg', e);
+  }
+</script>
+
+      
+
+      
+        <script src="./polyfill.min.js(3).download" crossorigin=""></script>
+
+        
+    <script src="./bundle.min.js(2).download" crossorigin="anonymous"></script>
+    <script>
+      (function initSentry() {
+        function isDuplexerError(event) {
+          try {
+            var stackFrames = event.exception.values[0].stacktrace.frames;
+            return /@wix\/wix-duplexer-js/.test(stackFrames[stackFrames.length - 1].filename);
+          } catch (error) {
+            return false;
+          }
+        }
+
+        Sentry.init({
+          dsn: 'https://71e32b4ded27414b90a94adb4e8b4d23@sentry.wixpress.com/94',
+          beforeSend: function beforeSend(event) {
+            return isDuplexerError(event) ? null : event;
+          },
+        });
+
+        Sentry.configureScope(function(scope) {
+          var p = function(x) { return x.split('=', 2).map(decodeURIComponent); };
+          var r = function(acc, x) { acc[x[0]] = x[1]; return acc; };
+          var q = location.search.replace(/^\?/, '').split('&').map(p).reduce(r, {});
+          scope.setUser({'id': 'bb7d596d-1c2d-463f-8a76-e98a5f4a05cf' })
+          scope.setTag('bundleName', 'custom-feed-widget');
+          scope.setTag('instanceId', '32206a94-61b6-4440-972c-b76f9da8ee3a');
+          scope.setTag('viewMode', q.viewMode);
+          scope.setTag('deviceType', q.deviceType);
+          scope.setTag('locale', q.locale);
+        });
+      })();
+    </script>
+  
+        
+     <script src="./app.bundle.min.js(2).download" crossorigin=""></script>
+     <script>
+        wixFullstoryLoader({ label: 'wix-blog', sample: 0.01 });
+     </script>
+  
+      
+
+      
+        <link rel="stylesheet" type="text/css" href="./languages(1).css">
+<link rel="stylesheet" type="text/css" href="./custom-feed-widget.min.css">
+        
+
+<style wix-style="">
+  /* Widget styles */
+  .blog-background-color { background-color: rgba(255,255,255,0); }
+	.blog-background-color { background-color: rgba(255,255,255,0); }
+
+  /* Post styles */
+  .blog-text-color { color: rgba(0,0,0,1); }
+	.blog-text-color { color: rgba(0,0,0,1); }
+	.blog-text-border-color { border-color: rgba(0,0,0,1); }
+	.blog-text-border-color { border-color: rgba(0,0,0,1); }
+	.blog-text-background-color { background-color: rgba(0,0,0,1); }
+	.blog-text-background-color { background-color: rgba(0,0,0,1); }
+  .blog-icon-fill { fill: rgba(0,0,0,1); }
+	.blog-icon-fill { fill: rgba(0,0,0,1); }
+	.blog-icon-stroke { stroke: rgba(0,0,0,1); }
+	.blog-icon-stroke { stroke: rgba(0,0,0,1); }
+  .blog-separator-background-color { background-color: rgba(0,0,0,1); }
+	.blog-separator-background-color { background-color: rgba(0,0,0,1); }
+  .blog-inverted-separator-background-color { background-color: rgba(255,255,255,1); }
+	.blog-inverted-separator-background-color { background-color: rgba(255,255,255,1); }
+  .blog-card-background-color { background-color: rgba(255,255,255,1); }
+	.blog-card-background-color { background-color: rgba(255,255,255,1); }
+	.blog-card-fill { fill: rgba(255,255,255,1); }
+	.blog-card-fill { fill: rgba(255,255,255,1); }
+	.blog-card-stroke { stroke: rgba(255,255,255,1); }
+	.blog-card-stroke { stroke: rgba(255,255,255,1); }
+	.blog-card-color { color: rgba(255,255,255,1); }
+	.blog-card-color { color: rgba(255,255,255,1); }
+  .blog-card-border-color { border-color: rgba(0,0,0,0.25); }
+	.blog-card-border-color { border-color: rgba(0,0,0,0.25); }
+  .blog-post-title-color { color: rgba(0,0,0,1); }
+	.blog-post-title-color { color: rgba(0,0,0,1); }
+  .blog-post-image-overlay-background-color { background-color: rgba(0,0,0,0.35); }
+	.blog-post-image-overlay-background-color { background-color: rgba(0,0,0,0.35); }
+
+  .blog-post-title-font { font:normal normal normal 28px/1.375em brandon-grot-w01-light,sans-serif; font-size: 28px; line-height: normal; }
+	.blog-post-title-font { font:normal normal normal 22px/1.41em brandon-grot-w01-light,sans-serif; line-height: normal; }
+	.blog-post-title-font { font:normal normal normal 22px/1.41em brandon-grot-w01-light,sans-serif; line-height: normal; }
+  .blog-post-description-font { font:normal normal normal 18px/1.75em avenir-lt-w01_35-light1475496,sans-serif; font-size: 16px; line-height: normal; }
+	.blog-post-description-font { font:normal normal normal 15px/1.875em avenir-lt-w01_35-light1475496,sans-serif; line-height: normal; }
+	.blog-post-description-font { font:normal normal normal 15px/1.875em avenir-lt-w01_35-light1475496,sans-serif; line-height: normal; }
+
+  /* Button styles */
+  .blog-button-primary-text-color { color: #FFFFFF; }
+	.blog-button-primary-text-color { color: #FFFFFF; }
+	.blog-button-primary-text-background-color { background-color: #FFFFFF; }
+	.blog-button-primary-text-background-color { background-color: #FFFFFF; }
+  .blog-button-primary-icon-fill { fill: #FFFFFF; }
+	.blog-button-primary-icon-fill { fill: #FFFFFF; }
+  .blog-button-secondary-text-color { color: #E3D0A8; }
+	.blog-button-secondary-text-color { color: #E3D0A8; }
+  .blog-button-secondary-icon-fill { fill: #E3D0A8; }
+	.blog-button-secondary-icon-fill { fill: #E3D0A8; }
+  .blog-button-color { color: #E3D0A8; }
+	.blog-button-color { color: #E3D0A8; }
+	.blog-button-background-color { background-color: #E3D0A8; }
+	.blog-button-background-color { background-color: #E3D0A8; }
+	.blog-button-border-color { border-color: #E3D0A8; }
+	.blog-button-border-color { border-color: #E3D0A8; }
+	.blog-button-fill { fill: #E3D0A8; }
+	.blog-button-fill { fill: #E3D0A8; }
+	.blog-button-stroke { stroke: #E3D0A8; }
+	.blog-button-stroke { stroke: #E3D0A8; }
+  .is-desktop .blog-button-hover-color:hover { color: rgba(227,208,168,1); }
+	.is-desktop .blog-button-hover-color:hover { color: rgba(227,208,168,1); }
+	.is-desktop .blog-button-hover-fill:hover { fill: rgba(227,208,168,1); }
+	.is-desktop .blog-button-hover-fill:hover { fill: rgba(227,208,168,1); }
+  .is-desktop .blog-link-hover-color:hover { color: rgba(227,208,168,1); }
+	.is-desktop .blog-link-hover-color:hover { color: rgba(227,208,168,1); }
+	.is-desktop .blog-link-hover-fill:hover { fill: rgba(227,208,168,1); }
+	.is-desktop .blog-link-hover-fill:hover { fill: rgba(227,208,168,1); }
+  .is-desktop .blog-hover-container:hover .blog-hover-container-element-color { color: rgba(227,208,168,1); }
+	.is-desktop .blog-hover-container:hover .blog-hover-container-element-color { color: rgba(227,208,168,1); }
+	.is-desktop .blog-hover-container:hover .blog-hover-container-element-fill { fill: rgba(227,208,168,1); }
+	.is-desktop .blog-hover-container:hover .blog-hover-container-element-fill { fill: rgba(227,208,168,1); }
+  .is-desktop .blog-button-hover-after-border-color:hover::after { border-color: #E3D0A8; }
+	.is-desktop .blog-button-hover-after-border-color:hover::after { border-color: #E3D0A8; }
+  .blog-button-after-border-color::after { border-color: #E3D0A8; }
+	.blog-button-after-border-color::after { border-color: #E3D0A8; }
+
+  /* Fixed styles */
+  .blog-default-card-background-color { background-color: #FFFFFF; }
+	.blog-default-card-background-color { background-color: #FFFFFF; }
+  .blog-default-button-background-color { background-color: #E3D0A8; }
+	.blog-default-button-background-color { background-color: #E3D0A8; }
+  .blog-quote-border-color { border-color: #757575; }
+	.blog-quote-border-color { border-color: #757575; }
+</style>
+
+      
+    <style wix-style="">.Title{ font:normal normal normal 22px/1.41em brandon-grot-w01-light,sans-serif; } .Menu{ font:normal normal normal 14px/1.79em avenir-lt-w01_35-light1475496,sans-serif; } .Page-title{ font:normal normal normal 28px/1.375em brandon-grot-w01-light,sans-serif; } .Heading-XL{ font:normal normal normal 88px/1.2em brandon-grot-w01-light,sans-serif; } .Heading-L{ font:normal normal normal 72px/1.25em brandon-grot-w01-light,sans-serif; } .Heading-M{ font:normal normal normal 50px/1.34em brandon-grot-w01-light,sans-serif; } .Heading-S{ font:normal normal normal 40px/1.35em brandon-grot-w01-light,sans-serif; } .Body-L{ font:normal normal normal 20px/1.67em avenir-lt-w01_35-light1475496,sans-serif; } .Body-M{ font:normal normal normal 18px/1.75em avenir-lt-w01_35-light1475496,sans-serif; } .Body-S{ font:normal normal normal 15px/1.875em avenir-lt-w01_35-light1475496,sans-serif; } .Body-XS{ font:normal normal normal 14px/1.79em avenir-lt-w01_35-light1475496,sans-serif; } }</style><link type="text/css" rel="stylesheet" href="./languages(1).css"><style>:focus {
+    outline: none;
+}
+
+.js-focus-visible .focus-visible:focus,
+.js-focus-visible .focus-visible:focus ~ .wixSdkShowFocusOnSibling
+{
+    box-shadow: inset 0 0 0 1px rgba(255, 255, 255, 0.9), 0 0 1px 2px #3899EC;
+}
+</style><script src="./focus-visible.min.js.download" id="dynamic_script_FOCUS_VISIBLE"></script></head>
+
+    <body class="oSNla js-focus-visible">
+      
+
+      <div id="root"><div id="direction-provider-wrapper"><div dir="ltr"><div class="_2oAx1 blog-background-color is-desktop app-desktop" id="content-wrapper"><div class="cSnEi"><div></div><div><div><div class="_3sa-M _2QKd6 _32isZ post-list"><div><div class="_2QKd6"><div class="tZgfA _2QKd6"><div class="_sg9w"><div class="_1GFPu"><article class="dJBp- _2bQy8 _2lmPI Qz_XW blog-post-description-font blog-text-color blog-card-background-color blog-card-border-color post-list-item blog-hover-container" tabindex="0" style="border-width:1px" data-hook="post-list-item"><div class="T-BZz"><a tabindex="-1" href="https://social-blog.wix.com/paving-the-path-to-a-brighter-future" target="_top" class="blog-link-hover-color"><div class="_3RKAW _3-Hjr" data-hook="post-list-item-image"><div class="_1mvj7" style="background-image: url(&quot;https://static.wixstatic.com/media/cc8977110b194405a07d99a935f3e160.jpg/v1/fit/w_606,h_345,al_c,q_80/file.webp&quot;); background-size: cover;" data-pin-url="/paving-the-path-to-a-brighter-future"></div></div></a></div><div class="_3kcJF _2bQy8 _2lmPI Qz_XW _1Twkt"><div class="blog-post-description-font"><div class="_3CJpQ eRN8O blog-post-metadata-font post-header"><div class="gui6j"><div class="_2wbeQ"><ul class="_1ReRx _2qkGq"><li><span class="post-metadata__date time-ago" data-hook="time-ago">a day ago</span></li><li><div class="_2yYN5 e8kGb blog-separator-background-color"></div></li><li><span class="post-metadata__readTime" data-hook="time-to-read">1 min</span></li></ul></div></div></div></div><a class="_1NTXA _2bQy8 _2lmPI" href="https://social-blog.wix.com/paving-the-path-to-a-brighter-future" target="_top"><div class="_3sZWk blog-post-title-font _2bQy8 _2lmPI Qz_XW" data-hook="post-title"><h1 class="_2MNte post-title post-title__text blog-post-title-color blog-hover-container-element-color" datahook="post-title"><div style="overflow: hidden; text-overflow: ellipsis; -webkit-box-orient: vertical; display: -webkit-box; -webkit-line-clamp: 3;">Paving the path to a brighter future</div></h1></div><div class="-RDEl _2bQy8 blog-post-description-font Qz_XW" data-hook="post-description"><div class="_1Uunh post-excerpt"><div style="overflow: hidden; text-overflow: ellipsis; -webkit-box-orient: vertical; display: -webkit-box; -webkit-line-clamp: 3;"><div class="AB7h6" data-hook="post-description">This is your blog post. To really engage your site visitors we suggest you blog about subjects that are related to your site or business....</div></div></div></div></a></div></article></div></div><div class="_sg9w"><div class="_1GFPu"><article class="dJBp- _2bQy8 _2lmPI Qz_XW blog-post-description-font blog-text-color blog-card-background-color blog-card-border-color post-list-item blog-hover-container" tabindex="0" style="border-width:1px" data-hook="post-list-item"><div class="T-BZz"><a tabindex="-1" href="https://social-blog.wix.com/beyond-bucks-10-ways-to-make-a-difference" target="_top" class="blog-link-hover-color"><div class="_3RKAW _3-Hjr" data-hook="post-list-item-image"><div class="_1mvj7" style="background-image: url(&quot;https://static.wixstatic.com/media/5ca8a97313144b66bd93da08b0f01151.jpg/v1/fit/w_528,h_352,al_c,q_80/file.webp&quot;); background-size: cover;" data-pin-url="/beyond-bucks-10-ways-to-make-a-difference"></div></div></a></div><div class="_3kcJF _2bQy8 _2lmPI Qz_XW _1Twkt"><div class="blog-post-description-font"><div class="_3CJpQ eRN8O blog-post-metadata-font post-header"><div class="gui6j"><div class="_2wbeQ"><ul class="_1ReRx _2qkGq"><li><span class="post-metadata__date time-ago" data-hook="time-ago">a day ago</span></li><li><div class="_2yYN5 e8kGb blog-separator-background-color"></div></li><li><span class="post-metadata__readTime" data-hook="time-to-read">1 min</span></li></ul></div></div></div></div><a class="_1NTXA _2bQy8 _2lmPI" href="https://social-blog.wix.com/beyond-bucks-10-ways-to-make-a-difference" target="_top"><div class="_3sZWk blog-post-title-font _2bQy8 _2lmPI Qz_XW" data-hook="post-title"><h1 class="_2MNte post-title post-title__text blog-post-title-color blog-hover-container-element-color" datahook="post-title"><div style="overflow: hidden; text-overflow: ellipsis; -webkit-box-orient: vertical; display: -webkit-box; -webkit-line-clamp: 3;">Beyond bucks: 10 ways to make a difference</div></h1></div><div class="-RDEl _2bQy8 blog-post-description-font Qz_XW" data-hook="post-description"><div class="_1Uunh post-excerpt"><div style="overflow: hidden; text-overflow: ellipsis; -webkit-box-orient: vertical; display: -webkit-box; -webkit-line-clamp: 3;"><div class="AB7h6" data-hook="post-description">This is your blog post. Great looking images make your blog posts more visually compelling for your audience, so choose media that really...</div></div></div></div></a></div></article></div></div><div class="_sg9w"><div class="_1GFPu"><article class="dJBp- _2bQy8 _2lmPI Qz_XW blog-post-description-font blog-text-color blog-card-background-color blog-card-border-color post-list-item blog-hover-container" tabindex="0" style="border-width:1px" data-hook="post-list-item"><div class="T-BZz"><a tabindex="-1" href="https://social-blog.wix.com/finding-support-and-help-how-your-community-can-make-a-difference" target="_top" class="blog-link-hover-color"><div class="_3RKAW _3-Hjr" data-hook="post-list-item-image"><div class="_1mvj7" style="background-image: url(&quot;https://static.wixstatic.com/media/5cd76cd6f94a4adb993bf4d1ad7dcca2.jpg/v1/fit/w_528,h_352,al_c,q_80/file.webp&quot;); background-size: cover;" data-pin-url="/finding-support-and-help-how-your-community-can-make-a-difference"></div></div></a></div><div class="_3kcJF _2bQy8 _2lmPI Qz_XW _1Twkt"><div class="blog-post-description-font"><div class="_3CJpQ eRN8O blog-post-metadata-font post-header"><div class="gui6j"><div class="_2wbeQ"><ul class="_1ReRx _2qkGq"><li><span class="post-metadata__date time-ago" data-hook="time-ago">a day ago</span></li><li><div class="_2yYN5 e8kGb blog-separator-background-color"></div></li><li><span class="post-metadata__readTime" data-hook="time-to-read">1 min</span></li></ul></div></div></div></div><a class="_1NTXA _2bQy8 _2lmPI" href="https://social-blog.wix.com/finding-support-and-help-how-your-community-can-make-a-difference" target="_top"><div class="_3sZWk blog-post-title-font _2bQy8 _2lmPI Qz_XW" data-hook="post-title"><h1 class="_2MNte post-title post-title__text blog-post-title-color blog-hover-container-element-color" datahook="post-title"><div style="overflow: hidden; text-overflow: ellipsis; -webkit-box-orient: vertical; display: -webkit-box; -webkit-line-clamp: 3;">Finding support and help: how your community can make a difference</div></h1></div><div class="-RDEl _2bQy8 blog-post-description-font Qz_XW" data-hook="post-description"><div class="_1Uunh post-excerpt"><div style="overflow: hidden; text-overflow: ellipsis; -webkit-box-orient: vertical; display: -webkit-box; -webkit-line-clamp: 3;"><div class="AB7h6" data-hook="post-description">This is your blog post. Blogs are a great way to connect with your audience and keep them coming back. They can also be a great way to po...</div></div></div></div></a></div></article></div></div></div></div><div></div></div></div></div></div></div></div></div></div></div>
+
+      
+        <script>
+  var p = function(x) { return x.split('=', 2).map(decodeURIComponent); };
+  var r = function(acc, x) { acc[x[0]] = x[1]; return acc; };
+  var q = location.search.replace(/^\?/, '').split('&').map(p).reduce(r, {});
+  window.parent.postMessage(
+  '{"intent":"TPA2","callId":1,"type":"applicationLoadingStep","compId":"' + q.compId + '","deviceType":"' + q.deviceType + '","data":{"version":"1.94.0", "args":{"stage":"firstMeaningfulPaint", "stageNum":0}}}', '*'
+  );
+</script>
+
+      
+
+      
+        <script>
+  window.wixTpaWindowResize = {
+    elSelector: '#content-wrapper',
+    enableViewportFix: false,
+  };
+</script>
+<script>!function(){"use strict";!function(e){var n=e.wixTpaWindowResize;if(n){if(!n.elSelector)return console.error("Aborting window resize handler: you must specify a css selector");var i,t=decodeURIComponent(e.location.search).split("&").reduce(function(e,n){var i=n.split("=");return e[i[0]]=i[1],e},{}),o=320,r=n.elSelector,a=n.interval||160,s=n.minHeight||null,c=n.disableOnMobile||!1,l=n.enableViewportFix||!1,d="mobile"===t.deviceType,u=["editor","preview"].indexOf(t.viewMode)>-1,h=n.onInit||function(){},f=!1!==n.listenOnInit,v=!0===n.log;d&&c||(f&&g(),h({startListening:g,stopListening:m}))}function p(e){v&&console.log("window-resize-handler ",e)}function w(n){var i=n.scrollHeight*(d&&l?o/(u?o:function(){var n=!1;if(void 0!==e.orientation)n=90===e.orientation||-90===e.orientation;else{var i=e.matchMedia("(orientation: landscape)");n=!(!i||!0!==i.matches)}return n}()?Math.max(e.screen.width,e.screen.height):e.screen.width):1);return s?Math.max(i,s):i}function g(){var n=0;i=e.setInterval(function(){var i=e.document.querySelector(r);if(i){var t=w(i);n===t&&e.innerHeight===t||(n=t,function(n){e.Wix?(p("window.Wix.setHeight"),e.Wix.setHeight(n)):(p("window.parent.postMessage"),e.parent.postMessage('{"intent":"TPA2","callId":1,"type":"heightChanged","compId":"'+e.name+'","deviceType":"desktop","data":{"version":"1.66.0", "args":{"height":"'+n+'", "overflow":"false"}}}',"*"))}(t))}},a)}function m(){e.clearInterval(i)}}(window)}();
+</script>
+
+
+        <script src="./wix-private.min.js(2).download" crossorigin=""></script>
+
+
+        <script src="./react.production.min.js(3).download" crossorigin=""></script>
+<script src="./react-dom.production.min.js(3).download" crossorigin=""></script>
+
+
+        <script src="./ReactPlayer.js.download" crossorigin=""></script>
+
+
+        <script src="./custom-feed-widget.bundle.min.js.download" crossorigin="" defer=""></script>
+
+        
+
+        <script>
+          window.__INITIAL_STATE__ = {"appData":{"_id":"32206a94-61b6-4440-972c-b76f9da8ee3a","label":"Welcome to Your Blog","menuLabel":"All Posts","description":"Review the posts below for some great tips. To edit this header go to Settings \u003E Categories.","language":"en","cover":{"original_file_name":"a27d24_85296a50517f45428acb01b9c4911ba1~mv2_d_3992_1513_s_2.jpg","file_name":"a27d24_85296a50517f45428acb01b9c4911ba1~mv2_d_3992_1513_s_2.jpg","width":3992,"height":1513},"overlayColor":{"color":"#ffffff","opacity":0.35},"backgroundColor":{"color":"#FFFFFF","opacity":1},"coverType":"image","textColor":{"color":"#000000","opacity":1},"postPageEnabled":true,"sendEmailsToSiteSubscribers":false,"sendEmailsToSiteMembers":true},"appSettings":{"colorPresets":[{"name":"color_1","value":"#000000","reference":"white\u002Fblack"},{"name":"color_2","value":"#E3D0A8","reference":"black\u002Fwhite"},{"name":"color_3","value":"#191919","reference":"primery-1"},{"name":"color_4","value":"#F7F7F7","reference":"primery-2"},{"name":"color_5","value":"#E3F2F3","reference":"primery-3"},{"name":"color_11","value":"#FFFFFF","reference":"color-1"},{"name":"color_12","value":"#bfbfbf","reference":"color-2"},{"name":"color_13","value":"#808080","reference":"color-3"},{"name":"color_14","value":"#404040","reference":"color-4"},{"name":"color_15","value":"#000000","reference":"color-5"},{"name":"color_16","value":"#f6efe2","reference":"color-6"},{"name":"color_17","value":"#ece0c5","reference":"color-7"},{"name":"color_18","value":"#E3D0A8","reference":"color-8"},{"name":"color_19","value":"#c39a44","reference":"color-9"},{"name":"color_20","value":"#644e20","reference":"color-10"},{"name":"color_21","value":"#d1d1d1","reference":"color-11"},{"name":"color_22","value":"#a3a3a3","reference":"color-12"},{"name":"color_23","value":"#757575","reference":"color-13"},{"name":"color_24","value":"#474747","reference":"color-14"},{"name":"color_25","value":"#191919","reference":"color-15"},{"name":"color_26","value":"#fbfbfb","reference":"color-16"},{"name":"color_27","value":"#F7F7F7","reference":"color-17"},{"name":"color_28","value":"#b9b9b9","reference":"color-18"},{"name":"color_29","value":"#7c7c7c","reference":"color-19"},{"name":"color_30","value":"#3e3e3e","reference":"color-20"},{"name":"color_31","value":"#f1f8f9","reference":"color-21"},{"name":"color_32","value":"#E3F2F3","reference":"color-22"},{"name":"color_33","value":"#91ccd0","reference":"color-23"},{"name":"color_34","value":"#479fa4","reference":"color-24"},{"name":"color_35","value":"#234f52","reference":"color-25"}],"textPresets":{"Title":{"editorKey":"font_0","lineHeight":"1.41em","style":"normal","weight":"normal","size":"22px","fontFamily":"brandon-grot-w01-light","value":"font:normal normal normal 22px\u002F1.41em brandon-grot-w01-light,sans-serif;"},"Menu":{"editorKey":"font_1","lineHeight":"1.79em","style":"normal","weight":"normal","size":"14px","fontFamily":"avenir-lt-w01_35-light1475496","value":"font:normal normal normal 14px\u002F1.79em avenir-lt-w01_35-light1475496,sans-serif;"},"Page-title":{"editorKey":"font_2","lineHeight":"1.375em","style":"normal","weight":"normal","size":"28px","fontFamily":"brandon-grot-w01-light","value":"font:normal normal normal 28px\u002F1.375em brandon-grot-w01-light,sans-serif;"},"Heading-XL":{"editorKey":"font_3","lineHeight":"1.2em","style":"normal","weight":"normal","size":"88px","fontFamily":"brandon-grot-w01-light","value":"font:normal normal normal 88px\u002F1.2em brandon-grot-w01-light,sans-serif;"},"Heading-L":{"editorKey":"font_4","lineHeight":"1.25em","style":"normal","weight":"normal","size":"72px","fontFamily":"brandon-grot-w01-light","value":"font:normal normal normal 72px\u002F1.25em brandon-grot-w01-light,sans-serif;"},"Heading-M":{"editorKey":"font_5","lineHeight":"1.34em","style":"normal","weight":"normal","size":"50px","fontFamily":"brandon-grot-w01-light","value":"font:normal normal normal 50px\u002F1.34em brandon-grot-w01-light,sans-serif;"},"Heading-S":{"editorKey":"font_6","lineHeight":"1.35em","style":"normal","weight":"normal","size":"40px","fontFamily":"brandon-grot-w01-light","value":"font:normal normal normal 40px\u002F1.35em brandon-grot-w01-light,sans-serif;"},"Body-L":{"editorKey":"font_7","lineHeight":"1.67em","style":"normal","weight":"normal","size":"20px","fontFamily":"avenir-lt-w01_35-light1475496","value":"font:normal normal normal 20px\u002F1.67em avenir-lt-w01_35-light1475496,sans-serif;"},"Body-M":{"editorKey":"font_8","lineHeight":"1.75em","style":"normal","weight":"normal","size":"18px","fontFamily":"avenir-lt-w01_35-light1475496","value":"font:normal normal normal 18px\u002F1.75em avenir-lt-w01_35-light1475496,sans-serif;"},"Body-S":{"editorKey":"font_9","lineHeight":"1.875em","style":"normal","weight":"normal","size":"15px","fontFamily":"avenir-lt-w01_35-light1475496","value":"font:normal normal normal 15px\u002F1.875em avenir-lt-w01_35-light1475496,sans-serif;"},"Body-XS":{"editorKey":"font_10","lineHeight":"1.79em","style":"normal","weight":"normal","size":"14px","fontFamily":"avenir-lt-w01_35-light1475496","value":"font:normal normal normal 14px\u002F1.79em avenir-lt-w01_35-light1475496,sans-serif;"}},"updatedAt":1596575425256,"style":{"colors":{"post-backgroundColor":{"themeName":"color-1","value":"rgba(255,255,255,1)"},"post-borderColor":{"themeName":"color-5","value":"rgba(0,0,0,0.25)"},"post-descriptionColo-textOnImager":{"themeName":"color-1","value":"rgba(255,255,255,1)"},"post-descriptionColor":{"themeName":"color-5","value":"rgba(0,0,0,1)"},"post-descriptionColor-standard":{"themeName":"color-5","value":"rgba(0,0,0,1)"},"post-hoverColor":{"themeName":"color-8","value":"rgba(227,208,168,1)"},"post-hoverColor-standard":{"themeName":"color-8","value":"rgba(227,208,168,1)"},"post-imageOverlayColor":{"themeName":"color-5","value":"rgba(0,0,0,0.35)"},"post-titleColo-textOnImager":{"themeName":"color-1","value":"rgba(255,255,255,1)"},"post-titleColor":{"themeName":"color-5","value":"rgba(0,0,0,1)"},"post-titleColor-standard":{"themeName":"color-5","value":"rgba(0,0,0,1)"},"widget-backgroundColor":{"themeName":"color-1","value":"rgba(255,255,255,0)"}},"numbers":{"list-layoutId":6,"list-numberOfPosts":3,"list-numberOfRows":1,"list-postLimitType":1},"booleans":{"blog-isAuthorNameEnabled":false,"blog-isCommentCountEnabled":false,"blog-isLikeCountEnabled":false,"blog-isViewCountEnabled":false},"fonts":{"ignored-as-color-picker-does-not-support-info-text":{"family":"brandon-grot-w01-light","displayName":"Heading 2","style":{"bold":false,"italic":false,"underline":false},"size":28,"preset":"Page-title","editorKey":"font_2","fontStyleParam":true,"value":"font:normal normal normal 28px\u002F1.375em brandon-grot-w01-light,sans-serif;"},"post-descriptionFont":{"family":"avenir-lt-w01_35-light1475496","style":{"bold":false,"italic":false,"underline":false},"size":15,"preset":"Body-S","editorKey":"font_9","fontStyleParam":true,"displayName":"Paragraph 3","value":"font:normal normal normal 15px\u002F1.875em avenir-lt-w01_35-light1475496,sans-serif;"},"post-descriptionFont-standard":{"family":"avenir-lt-w01_35-light1475496","style":{"bold":false,"italic":false,"underline":false},"size":15,"preset":"Body-S","editorKey":"font_9","fontStyleParam":true,"displayName":"Paragraph 3","value":"font:normal normal normal 15px\u002F1.875em avenir-lt-w01_35-light1475496,sans-serif;"},"post-descriptionFont-textOnImage":{"family":"avenir-lt-w01_35-light1475496","style":{"bold":false,"italic":false,"underline":false},"size":15,"preset":"Body-S","editorKey":"font_9","fontStyleParam":true,"displayName":"Paragraph 3","value":"font:normal normal normal 15px\u002F1.875em avenir-lt-w01_35-light1475496,sans-serif;"},"post-titleFont":{"family":"brandon-grot-w01-light","style":{"bold":false,"italic":false,"underline":false},"size":22,"preset":"Title","editorKey":"font_0","fontStyleParam":true,"displayName":"Heading 1","value":"font:normal normal normal 22px\u002F1.41em brandon-grot-w01-light,sans-serif;"},"post-titleFont-standard":{"family":"brandon-grot-w01-light","style":{"bold":false,"italic":false,"underline":false},"size":22,"preset":"Title","editorKey":"font_0","fontStyleParam":true,"displayName":"Heading 1","value":"font:normal normal normal 22px\u002F1.41em brandon-grot-w01-light,sans-serif;"},"post-titleFont-textOnImage":{"family":"brandon-grot-w01-light","style":{"bold":false,"italic":false,"underline":false},"size":22,"preset":"Title","editorKey":"font_0","fontStyleParam":true,"displayName":"Heading 1","value":"font:normal normal normal 22px\u002F1.41em brandon-grot-w01-light,sans-serif;"}},"googleFontsCssUrl":"","uploadFontFaces":"","cssUrls":["\u002F\u002Fstatic.parastorage.com\u002Fservices\u002Fsanta-resources\u002Fresources\u002Fviewer\u002Fuser-site-fonts\u002Fv8\u002Flanguages.css"]},"custom":{}},"commonSettings":{},"auth":{"currentUser":{"_id":"5f287671502d540017d2bd81","name":"samanthaalejandre7","image":"https:\u002F\u002Flh3.googleusercontent.com\u002Fa-\u002FAOh14GhdMppaXXCro2gYGj3cw2Rpb5HtdHvcGLAM3XgPdQ%3Ds96-c","cover":null,"siteMemberId":"bb7d596d-1c2d-463f-8a76-e98a5f4a05cf","isOwner":true,"isBlocked":false,"appStore":{"14bcded7-0066-7c35-14d7-466cb3f09103":{"permissions":{"role":"owner"}}},"slug":"samanthaalejandre7"},"isAuthenticated":true,"isAuthenticating":false},"communitiesContext":{"14cc59bc-f0b7-15b8-e1c7-89ce41d0e0c9":{"isInstalled":false}},"experiments":{"se_newBlogQuickMigration":"new","specs.wixBlog.UseRpcMemberAreaClient":"true","specs.wixBlog.ImportFromWordPress":"true","specs.wixBlog.StaticTextToolbar":"false","specs.wixBlog.MapOldLayoutsToProGalleryInEditor":"true","specs.wixBlog.ImportFromWordPressInsideMenu":"false","specs.wixBlog.SimulateInvalidDraftRevisionId":"false","specs.media.MediaManager3":"true","specs.wixBlog.CollectMetrics":"false","specs.wixBlog.ProGalleryDescriptionToggle":"false","specs.wixBlog.FetchCurrentUser":"true","specs.wixBlog.BMNewTableMultiselect":"true","specs.wixBlog.MoveToTrash":"true","specs.wixBlog.MobileLayoutUpdatedStyle":"true","specs.wixBlog.PostPageMigration":"true","specs.wixBlog.RelativeUrlsInEditorApp":"true","com.wixpress.communities.blog.subscription.experiments.AutoSubscribeToBlogNotifications":"true","specs.wixBlog.DoNotLoadPostContentInList":"false","specs.wixBlog.BMNewSidebar":"true","specs.wixBlog.UseNextRCE":"false","specs.wixBlog.ValidateViewMode":"false","specs.wixBlog.BMToggleComments":"true","specs.wixBlog.Subscriptions":"true","specs.wixBlog.RCELineSize":"true","specs.wixBlog.StableIdEnabled":"true","specs.wixBlog.RceExpandImage":"true","specs.wixBlog.PinterestToggle":"true","se_santaMembers":"new","specs.wixBlog.ToggleAuthorBadge":"true","specs.wixBlog.ErrorModal":"true","specs.wixBlog.DefaultMobileLayoutSideBySide":"true","specs.wixBlog.UseDuplexerNewUrl":"true","specs.wixBlog.BMShareAfterPublishPostAction":"true","specs.wixBlog.BMNewTableLayout":"true","specs.wixBlog.BMPostListFilters":"true","specs.wixBlog.RemoveEureka":"true","specs.wixBlog.UseRceTruncateContentService":"false","specs.wixBlog.MoveCreatePostButton":"true","specs.wixBlog.ToggleEmailsForSiteMembers":"true","specs.wixBlog.PaywallBanner":"true","specs.wixBlog.PostPageTagSettings":"false","specs.wixBlog.UseRicos":"false","specs.blogImporter.EnableRollbackOfMigrationsBM":"false","specs.wixBlog.CreateOfflineUser":"true","specs.wixBlog.SendEmailsToSiteSubscribersInBM":"true","specs.wixBlog.RemovePaidGroupIdsOnPlanArchived":"true","specs.wixBlog.ProvisionEditorXDemo":"true","specs.wixBlog.BlogFeedProGalleryLayouts":"true","specs.wixBlog.MembersAreaInstallV2":"true","specs.wixBlog.PassUserAspectsOnOwnerAndContributorsFetch":"true","specs.wixBlog.DraftRevisionModal":"false","specs.wixBlog.VarnishCache":"true","specs.wixBlog.FetchPostMetadataSeparately":"true","specs.wixBlog.UseSiteQueryService":"false","specs.wixBlog.CanonicalUrl":"false","specs.wixBlog.TestBlogOOI":"false","specs.wixBlog.UseMAIntegrationKit":"true","specs.wixBlog.BMShareAfterPublish":"false","specs.wixBlog.UseFilesusrDomain":"false","specs.wixBlog.FixedEditorVersion":"false","specs.wixBlog.UseRelooseInBlogApp":"true","specs.wixBlog.BMExplainerTexts":"true","specs.wixBlog.ProdOOIEditor":"true","specs.wixBlog.InstallMissingPostPageAdi":"true","specs.wixBlog.NextProdOOIViewer":"false","specs.wixBlog.UseLaterKafkaEventAspects":"false","specs.wixBlog.DraftContentLogging":"true","specs.wixBlog.UseSiteMembersID":"false","specs.wixBlog.OfflinePostPageMigration":"true","specs.wixBlog.EmNewEmailTemplates":"true","specs.wixBlog.TogglePostActionsMenu":"true","specs.wixBlog.BMHireBlogWriter":"true","specs.wixBlog.ArchiveMonthsLimit":"true","specs.wixBlog.RceFileUpload":"true","specs.wixBlog.OneColumnMaxHeightSetting":"true","specs.wixBlog.DetermineWixUserRoleFromPermissions":"true","specs.wixBlog.BMUnsavedChangesError":"true","specs.wixBlog.BMAuthorDetailsInSettings":"false","specs.wixBlog.BMRecoverLastValidDraft":"true","specs.wixBlog.NewApiUrlInEditor":"true","specs.wixBlog.NullForMemberId":"false"},"isAppLoaded":false,"isDemoMode":false,"isLoaded":{"feed-posts":true},"isLoading":{"feed-posts":false},"pagination":{"comments":{"entitiesByPage":{}},"posts":{"entitiesByPage":{"1":["5f287671ba4f5d0017984198","5f287671ba4f5d0017984197","5f287671ba4f5d0017984196"]},"currentPage":1,"pageSize":3,"entityCount":3},"posts-unpublished":{"entitiesByPage":{}},"posts-published":{"entitiesByPage":{}},"posts-scheduled":{"entitiesByPage":{}},"posts-deleted":{"entitiesByPage":{}}},"posts":{"5f287671ba4f5d0017984198":{"_id":"5f287671ba4f5d0017984198","id":"7e33e6af-1a56-480d-aa99-5ca342675e7a","instanceId":"32206a94-61b6-4440-972c-b76f9da8ee3a","status":"published","categoryIds":[],"createdDate":"2020-08-03T20:41:21.723Z","lastPublishedDate":"2020-08-03T20:41:21.726Z","slugs":["paving-the-path-to-a-brighter-future"],"seoSlug":"paving-the-path-to-a-brighter-future","ownerId":"5f287671502d540017d2bd81","ownerSiteMemberId":"bb7d596d-1c2d-463f-8a76-e98a5f4a05cf","lastWriterId":"5f287671502d540017d2bd81","lastWriterSiteMemberId":"bb7d596d-1c2d-463f-8a76-e98a5f4a05cf","isPinned":false,"isCommentsDisabled":false,"likeCount":0,"viewCount":0,"totalComments":0,"lastActivityDate":"2020-08-03T20:41:21.726Z","isFeatured":false,"firstPublishedDate":"2020-08-03T20:41:21.726Z","seoShowInSearch":true,"seoShowSnippetInSearch":true,"heroImage":{"src":null,"isCustom":false,"isEnabled":false},"paidPlansGroupIds":[],"paidContentParagraph":null,"tagIds":[],"title":"Paving the path to a brighter future","timeToRead":1,"excerpt":"This is your blog post. To really engage your site visitors we suggest you blog about subjects that are related to your site or business....","coverImage":{"shouldRender":true,"imageMetadata":{"id":"cc8977110b194405a07d99a935f3e160.jpg","original_file_name":"cc8977110b194405a07d99a935f3e160.jpg","file_name":"cc8977110b194405a07d99a935f3e160.jpg","width":5490,"height":3120},"src":{"id":"cc8977110b194405a07d99a935f3e160.jpg","original_file_name":"cc8977110b194405a07d99a935f3e160.jpg","file_name":"cc8977110b194405a07d99a935f3e160.jpg","width":5490,"height":3120},"isEnabled":true,"isCustom":false,"isResolved":true},"slug":"paving-the-path-to-a-brighter-future","hasUnpublishedChanges":false,"draft":{"title":"Paving the path to a brighter future","categoryIds":[],"coverImage":{"src":null,"isCustom":false,"isEnabled":true},"seoSlug":"paving-the-path-to-a-brighter-future","editedDate":"2020-08-03T20:41:21.726Z","isCommentsDisabled":false,"firstPublishedDate":"2020-08-03T20:41:21.726Z","ownerId":"5f287671502d540017d2bd81","ownerSiteMemberId":"bb7d596d-1c2d-463f-8a76-e98a5f4a05cf","isFeatured":false,"seoShowInSearch":true,"seoShowSnippetInSearch":true,"heroImage":{"src":null,"isCustom":false,"isEnabled":false},"paidPlansGroupIds":[],"tagIds":[],"revisionId":"5651a5de-4db7-46b5-8f44-d70ab48cb82c"},"isLiked":false,"owner":{"name":"samanthaalejandre7","image":"https:\u002F\u002Flh3.googleusercontent.com\u002Fa-\u002FAOh14GhdMppaXXCro2gYGj3cw2Rpb5HtdHvcGLAM3XgPdQ%3Ds96-c","cover":null,"siteMemberId":"bb7d596d-1c2d-463f-8a76-e98a5f4a05cf","isOwner":true,"isBlocked":false,"appStore":{"14bcded7-0066-7c35-14d7-466cb3f09103":{"permissions":{"role":"owner"}}},"_id":"5f287671502d540017d2bd81","slug":"samanthaalejandre7","privacyStatus":"PUBLIC"},"isSubscribed":true},"5f287671ba4f5d0017984197":{"_id":"5f287671ba4f5d0017984197","id":"fa30b014-2ec5-458d-8adb-738e3ad194eb","instanceId":"32206a94-61b6-4440-972c-b76f9da8ee3a","status":"published","categoryIds":[],"createdDate":"2020-08-03T20:41:21.723Z","lastPublishedDate":"2020-08-03T20:41:21.725Z","slugs":["beyond-bucks-10-ways-to-make-a-difference"],"seoSlug":"beyond-bucks-10-ways-to-make-a-difference","ownerId":"5f287671502d540017d2bd81","ownerSiteMemberId":"bb7d596d-1c2d-463f-8a76-e98a5f4a05cf","lastWriterId":"5f287671502d540017d2bd81","lastWriterSiteMemberId":"bb7d596d-1c2d-463f-8a76-e98a5f4a05cf","isPinned":false,"isCommentsDisabled":false,"likeCount":0,"viewCount":0,"totalComments":0,"lastActivityDate":"2020-08-03T20:41:21.725Z","isFeatured":false,"firstPublishedDate":"2020-08-03T20:41:21.725Z","seoShowInSearch":true,"seoShowSnippetInSearch":true,"heroImage":{"src":null,"isCustom":false,"isEnabled":false},"paidPlansGroupIds":[],"paidContentParagraph":null,"tagIds":[],"title":"Beyond bucks: 10 ways to make a difference","timeToRead":1,"excerpt":"This is your blog post. Great looking images make your blog posts more visually compelling for your audience, so choose media that really...","coverImage":{"shouldRender":true,"imageMetadata":{"id":"5ca8a97313144b66bd93da08b0f01151.jpg","original_file_name":"5ca8a97313144b66bd93da08b0f01151.jpg","file_name":"5ca8a97313144b66bd93da08b0f01151.jpg","width":5760,"height":3840},"src":{"id":"5ca8a97313144b66bd93da08b0f01151.jpg","original_file_name":"5ca8a97313144b66bd93da08b0f01151.jpg","file_name":"5ca8a97313144b66bd93da08b0f01151.jpg","width":5760,"height":3840},"isEnabled":true,"isCustom":false,"isResolved":true},"slug":"beyond-bucks-10-ways-to-make-a-difference","hasUnpublishedChanges":false,"draft":{"title":"Beyond bucks: 10 ways to make a difference","categoryIds":[],"coverImage":{"src":null,"isCustom":false,"isEnabled":true},"seoSlug":"beyond-bucks-10-ways-to-make-a-difference","editedDate":"2020-08-03T20:41:21.725Z","isCommentsDisabled":false,"firstPublishedDate":"2020-08-03T20:41:21.725Z","ownerId":"5f287671502d540017d2bd81","ownerSiteMemberId":"bb7d596d-1c2d-463f-8a76-e98a5f4a05cf","isFeatured":false,"seoShowInSearch":true,"seoShowSnippetInSearch":true,"heroImage":{"src":null,"isCustom":false,"isEnabled":false},"paidPlansGroupIds":[],"tagIds":[],"revisionId":"ef06305e-9737-41ce-a94e-55c8564bb159"},"isLiked":false,"owner":{"name":"samanthaalejandre7","image":"https:\u002F\u002Flh3.googleusercontent.com\u002Fa-\u002FAOh14GhdMppaXXCro2gYGj3cw2Rpb5HtdHvcGLAM3XgPdQ%3Ds96-c","cover":null,"siteMemberId":"bb7d596d-1c2d-463f-8a76-e98a5f4a05cf","isOwner":true,"isBlocked":false,"appStore":{"14bcded7-0066-7c35-14d7-466cb3f09103":{"permissions":{"role":"owner"}}},"_id":"5f287671502d540017d2bd81","slug":"samanthaalejandre7","privacyStatus":"PUBLIC"},"isSubscribed":true},"5f287671ba4f5d0017984196":{"_id":"5f287671ba4f5d0017984196","id":"eafcb466-870e-42b8-95cc-11ecf3a24584","instanceId":"32206a94-61b6-4440-972c-b76f9da8ee3a","status":"published","categoryIds":[],"createdDate":"2020-08-03T20:41:21.723Z","lastPublishedDate":"2020-08-03T20:41:21.724Z","slugs":["finding-support-and-help-how-your-community-can-make-a-difference"],"seoSlug":"finding-support-and-help-how-your-community-can-make-a-difference","ownerId":"5f287671502d540017d2bd81","ownerSiteMemberId":"bb7d596d-1c2d-463f-8a76-e98a5f4a05cf","lastWriterId":"5f287671502d540017d2bd81","lastWriterSiteMemberId":"bb7d596d-1c2d-463f-8a76-e98a5f4a05cf","isPinned":false,"isCommentsDisabled":false,"likeCount":0,"viewCount":0,"totalComments":0,"lastActivityDate":"2020-08-03T20:41:21.724Z","isFeatured":false,"firstPublishedDate":"2020-08-03T20:41:21.724Z","seoShowInSearch":true,"seoShowSnippetInSearch":true,"heroImage":{"src":null,"isCustom":false,"isEnabled":false},"paidPlansGroupIds":[],"paidContentParagraph":null,"tagIds":[],"title":"Finding support and help: how your community can make a difference","timeToRead":1,"excerpt":"This is your blog post. Blogs are a great way to connect with your audience and keep them coming back. They can also be a great way to po...","coverImage":{"shouldRender":true,"imageMetadata":{"id":"5cd76cd6f94a4adb993bf4d1ad7dcca2.jpg","original_file_name":"5cd76cd6f94a4adb993bf4d1ad7dcca2.jpg","file_name":"5cd76cd6f94a4adb993bf4d1ad7dcca2.jpg","width":5760,"height":3840},"src":{"id":"5cd76cd6f94a4adb993bf4d1ad7dcca2.jpg","original_file_name":"5cd76cd6f94a4adb993bf4d1ad7dcca2.jpg","file_name":"5cd76cd6f94a4adb993bf4d1ad7dcca2.jpg","width":5760,"height":3840},"isEnabled":true,"isCustom":false,"isResolved":true},"slug":"finding-support-and-help-how-your-community-can-make-a-difference","hasUnpublishedChanges":false,"draft":{"title":"Finding support and help: how your community can make a difference","categoryIds":[],"coverImage":{"src":null,"isCustom":false,"isEnabled":true},"seoSlug":"finding-support-and-help-how-your-community-can-make-a-difference","editedDate":"2020-08-03T20:41:21.724Z","isCommentsDisabled":false,"firstPublishedDate":"2020-08-03T20:41:21.724Z","ownerId":"5f287671502d540017d2bd81","ownerSiteMemberId":"bb7d596d-1c2d-463f-8a76-e98a5f4a05cf","isFeatured":false,"seoShowInSearch":true,"seoShowSnippetInSearch":true,"heroImage":{"src":null,"isCustom":false,"isEnabled":false},"paidPlansGroupIds":[],"tagIds":[],"revisionId":"1392ffcf-8ad1-42fc-a1e9-9a0535e304da"},"isLiked":false,"owner":{"name":"samanthaalejandre7","image":"https:\u002F\u002Flh3.googleusercontent.com\u002Fa-\u002FAOh14GhdMppaXXCro2gYGj3cw2Rpb5HtdHvcGLAM3XgPdQ%3Ds96-c","cover":null,"siteMemberId":"bb7d596d-1c2d-463f-8a76-e98a5f4a05cf","isOwner":true,"isBlocked":false,"appStore":{"14bcded7-0066-7c35-14d7-466cb3f09103":{"permissions":{"role":"owner"}}},"_id":"5f287671502d540017d2bd81","slug":"samanthaalejandre7","privacyStatus":"PUBLIC"},"isSubscribed":true}},"routing":{"locationBeforeTransitions":{"pathname":"\u002Fcustom-feed-widget","search":"","hash":"","action":"POP","key":null,"query":{}}},"searchParams":{"cacheKiller":"1596575417591","commonConfig":"{\"brand\":\"wix\"}","compId":"comp-kdeze60r","currency":"USD","deviceType":"desktop","height":"896","instance":"RSTv-S4hPlnaBlP9XuSkVwqdv49rgKxLMsBZEZvDlY8.eyJpbnN0YW5jZUlkIjoiMzIyMDZhOTQtNjFiNi00NDQwLTk3MmMtYjc2ZjlkYThlZTNhIiwiYXBwRGVmSWQiOiIxNGJjZGVkNy0wMDY2LTdjMzUtMTRkNy00NjZjYjNmMDkxMDMiLCJtZXRhU2l0ZUlkIjoiOWU3YmNlYmMtNjAxNS00MTUwLWEzZWEtZWM1MmYzZGYxNGNhIiwic2lnbkRhdGUiOiIyMDIwLTA4LTA0VDIxOjA5OjM3LjMwN1oiLCJ1aWQiOiJiYjdkNTk2ZC0xYzJkLTQ2M2YtOGE3Ni1lOThhNWY0YTA1Y2YiLCJwZXJtaXNzaW9ucyI6Ik9XTkVSIiwiZGVtb01vZGUiOmZhbHNlLCJvcmlnaW5JbnN0YW5jZUlkIjoiOTE1MWNmM2MtYjUxYy00ZTY3LThjOWItYjc5NDZlY2U3ZTEyIiwiYmlUb2tlbiI6ImFjNWJhNDI4LTAxYTMtMDUxMC0zNGM2LTViM2Q2ZTc3ZmFmMCIsInNpdGVPd25lcklkIjoiYmI3ZDU5NmQtMWMyZC00NjNmLThhNzYtZTk4YTVmNGEwNWNmIiwic2l0ZU1lbWJlcklkIjoiYmI3ZDU5NmQtMWMyZC00NjNmLThhNzYtZTk4YTVmNGEwNWNmIiwiZXhwaXJhdGlvbkRhdGUiOiIyMDIwLTA4LTA1VDAxOjA5OjM3LjMwN1oiLCJsb2dpbkFjY291bnRJZCI6ImJiN2Q1OTZkLTFjMmQtNDYzZi04YTc2LWU5OGE1ZjRhMDVjZiJ9","locale":"en","pageId":"dnwlo","petri_ovr":"specs.DisableNewRelicScripts:true;sv_contactFormFinalMigrationEditor:old;","siteRevision":"105","tz":"America\u002FLos_Angeles","viewMode":"editor","viewerCompId":"comp-kdeze60r","width":"980"},"users":{"bb7d596d-1c2d-463f-8a76-e98a5f4a05cf":{"_id":"5f287671502d540017d2bd81","name":"samanthaalejandre7","image":"https:\u002F\u002Flh3.googleusercontent.com\u002Fa-\u002FAOh14GhdMppaXXCro2gYGj3cw2Rpb5HtdHvcGLAM3XgPdQ%3Ds96-c","cover":null,"siteMemberId":"bb7d596d-1c2d-463f-8a76-e98a5f4a05cf","isOwner":true,"isBlocked":false,"appStore":{"14bcded7-0066-7c35-14d7-466cb3f09103":{"permissions":{"role":"owner"}}},"slug":"samanthaalejandre7"}},"viewMode":"editor"};
+          window.__CONFIG__ = {"bundleName":"custom-feed-widget","fedopsAppName":"communities-blog-custom-feed-widget","imageHost":"static.wixstatic.com","videoHost":"video.wixstatic.com","sectionUrl":"","instanceId":"32206a94-61b6-4440-972c-b76f9da8ee3a","duplexer":{"url":"apps.wix.com\u002Fwix-duplexer-sockets-server","key":"8dd942aa-6255-4bb0-b004-8bd6cf2f6b35"},"isInEditor":true,"isInPreview":false,"categoryPath":"categories","useCategoryMenuLabelForMetadataTitle":false,"editorConfig":{"enableLinkify":true,"mediaToken":"JWS.eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCIsImtpZCI6Im5FUXljQzlOIn0.eyJpYXQiOjE1OTY1NzU0MjUsImRhdGEiOiJ7XCJ1c2VySWRcIjpcImJiN2Q1OTZkLTFjMmQtNDYzZi04YTc2LWU5OGE1ZjRhMDVjZlwiLFwibWV0YXNpdGVJZFwiOlwiOWU3YmNlYmMtNjAxNS00MTUwLWEzZWEtZWM1MmYzZGYxNGNhXCJ9IiwiZXhwIjoxNTk3Nzg1MDI1fQ.imEXvvpx9cwD8-eZKOkU0ItdnAr56VV-s5ZjLS4CIMI"},"isDevMode":false,"postPageSectionUrl":""};
+          window.__INITIAL_I18N__ = {"localeData":{"account-suspended.account-suspended":"Account Suspended","account-suspended.contact-owner":"For further information get in touch with the site owner.","badge.admin":"Admin","badge.owner":"Admin","badge.editor":"Editor","badge.writer":"Writer","comment-count.label_plural":"{{count, number}} comments","comment-count.label":"{{count, number}} comment","counter.count":"{{count, number}}","date":"{{time, date}}","fullDate":"{{time, fullDate}}","like-button.is-liked":"Post marked as liked","like-button.is-unliked":"Post not marked as liked","like-button.total-likes_plural":"likes.","like-button.total-likes":"like.","no-posts-feed.on-the-way":"Posts Are Coming Soon","no-posts-feed.stay-tuned":"Stay tuned...","time-relative":"{{time, timeRelative}}","time-to-read.label":"{{minutes}} min read","time-to-read.short-label":"{{minutes}} min","video-embed.disabled-tooltip":"To play this video, view this post from your live site.","video-embed.load-video":"Load video","view-count.label_plural":"{{count, number}} views","view-count.label":"{{count, number}} view","write-comment.write-a-comment":"Write a comment","comment-count.icon-aria-label":"Comment count","like-button.comment-is-liked":"Comment marked as liked","like-button.comment-is-unliked":"Comment not marked as liked","aria-label.authors-picture":"Author's picture"},"lang":"en"};
+          window.__STATICS_VERSION__ = '1.1915.0';
+          window.__WS_CONFIG__ = {"url":"https:\u002F\u002Fforums.wix.com\u002Fwix-ws-server","token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpbnN0YW5jZUlkIjoiMzIyMDZhOTQtNjFiNi00NDQwLTk3MmMtYjc2ZjlkYThlZTNhIiwiYXBpS2V5IjoiNTQ3NmQ5MjMtYWVmMy00NjMxLWFhM2ItODg4NjBmYmUxYjg4IiwiY2hhbm5lbHMiOlt7Im1hc2siOiJpbnN0YW5jZS0zMjIwNmE5NC02MWI2LTQ0NDAtOTcyYy1iNzZmOWRhOGVlM2EvYmxvZyIsInJlcXVpcmVzQXV0aCI6bnVsbCwicmVjZWl2ZU93bk1lc3NhZ2VzIjpmYWxzZX0seyJtYXNrIjoiaW5zdGFuY2UtMzIyMDZhOTQtNjFiNi00NDQwLTk3MmMtYjc2ZjlkYThlZTNhL2NhdGVnb3J5LShcXHcpIiwicmVxdWlyZXNBdXRoIjpudWxsLCJyZWNlaXZlT3duTWVzc2FnZXMiOmZhbHNlfSx7Im1hc2siOiJpbnN0YW5jZS0zMjIwNmE5NC02MWI2LTQ0NDAtOTcyYy1iNzZmOWRhOGVlM2EvcG9zdC0oXFx3KSIsInJlcXVpcmVzQXV0aCI6bnVsbCwicmVjZWl2ZU93bk1lc3NhZ2VzIjpmYWxzZX0seyJtYXNrIjoidXNlci01ZjI4NzY3MTUwMmQ1NDAwMTdkMmJkODEiLCJyZXF1aXJlc0F1dGgiOm51bGwsInJlY2VpdmVPd25NZXNzYWdlcyI6ZmFsc2V9XSwicHJlc2VuY2VEYXRhIjp7Im5hbWUiOiJzYW1hbnRoYWFsZWphbmRyZTcifSwiaWF0IjoxNTk2NTc1NDI1fQ.KUpVxrQA2ROsnGRwZe-Aj68aKlRkO8_Ahx6XYar97E4","communityToken":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpbnN0YW5jZUlkIjoiMzIyMDZhOTQtNjFiNi00NDQwLTk3MmMtYjc2ZjlkYThlZTNhIiwiYXBpS2V5IjoiYzhmZWZlZDctNjVmNi00Mzc4LWJiZDQtMjAzZTI1NmUzNmIwIiwiY2hhbm5lbHMiOlt7Im1hc2siOiJjb21tdW5pdHktdW5kZWZpbmVkIiwicmVxdWlyZXNBdXRoIjpudWxsLCJyZWNlaXZlT3duTWVzc2FnZXMiOmZhbHNlfV0sInByZXNlbmNlRGF0YSI6eyJuYW1lIjoic2FtYW50aGFhbGVqYW5kcmU3In0sImlhdCI6MTU5NjU3NTQyNX0.8egDBc7XoAmJNPMsEqKZbzTzGd6hpjy3UlDk9ZBH2jI"};
+          window.__LOCALE__ = "en";
+          window.__BASE_PATH__ = 'https://social-blog.wix.com';
+          window.__API_BASE_URL__ = 'https://apps.wix.com/_api/communities-blog-node-api';
+          window.__CLIENT_BASE_PATH__ = '';
+          window.__IS_DEV_MODE__ = false;
+        </script>
+      
+    
+  
+
+</body></html>
